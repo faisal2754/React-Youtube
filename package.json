@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "homepage": "https://faisal2754.github.io/React-Youtube/",
     "scripts": {
         "start": "nodemon --exec babel-node src/index.js",
         "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
