@@ -46,4 +46,6 @@ class App extends Component {
     }
 }
 
-ReactDOM.render(<App />, document.querySelector('.container'))
+if (typeof window !== 'undefined') {
+    ReactDOM.render(<App />, document.querySelector('.container'))
+}
